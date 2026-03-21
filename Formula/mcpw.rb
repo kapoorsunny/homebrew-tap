@@ -7,24 +7,24 @@ class Mcpw < Formula
   on_macos do
     on_arm do
       url "https://github.com/kapoorsunny/AnythingMCP/releases/download/v#{version}/mcpw-aarch64-apple-darwin.tar.gz"
-      sha256 "04d740455c5242679fd52490064a5d8ab269f6c96a7135767f4e6b948bfc14ea"
+      sha256 "6e2369896b9422fe51540d3874167bbbf9ae8df23fb9d776733302a6b518db9f"
     end
 
     on_intel do
       url "https://github.com/kapoorsunny/AnythingMCP/releases/download/v#{version}/mcpw-x86_64-apple-darwin.tar.gz"
-      sha256 "68dfd1a0337da39a5420946308e971705f5d1582b9f398bd874f3cb27f845746"
+      sha256 "701da46f33ab91f7cc5bd3e1ba7d06febbf7f0731df67d7b6dfbfb9f2ee61df4"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/kapoorsunny/AnythingMCP/releases/download/v#{version}/mcpw-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "af9a48e3336f67b7f10481f5c5285ba8ddf7872acc4576221504deee2b05d363"
+      sha256 "9dd4100ca13abe2878ebb2a4c8c60bdd8f47a5bd6784c3037988ad3da401b0c0"
     end
 
     on_intel do
       url "https://github.com/kapoorsunny/AnythingMCP/releases/download/v#{version}/mcpw-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a61cd81a6a690a569ad5a8090394ba8c756f63d963651bf75395c6bf5f5d5a75"
+      sha256 "f84d06752e9bf6e8c6b000e0e6ad808850b14fd55e78360b7d8f0cebe5d2231f"
     end
   end
 
