@@ -1,17 +1,17 @@
 class Keysec < Formula
   desc "A pocket secret vault for your Mac - Keychain-backed CLI with secret rotation"
   homepage "https://github.com/kapoorsunny/keysec"
-  version "1.0.1"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kapoorsunny/keysec/releases/download/v1.0.1/keysec-aarch64-apple-darwin.tar.gz"
-      sha256 "8914f6cfb5d1053fbbcb93776d22e53f182e00b23acbf4131b50841109df87aa"
+      url "https://github.com/kapoorsunny/keysec/releases/download/v1.1.0/keysec-aarch64-apple-darwin.tar.gz"
+      sha256 "8fc37c0bf1b2c02b02c30027120052cb7c01cfd8ee0778729eaef08743ec1e4e"
     end
     on_intel do
-      url "https://github.com/kapoorsunny/keysec/releases/download/v1.0.1/keysec-x86_64-apple-darwin.tar.gz"
-      sha256 "4d3f264f89659f2a49065e2f88028b8ae89e5113c444ebb0a3ac6137c3653f9f"
+      url "https://github.com/kapoorsunny/keysec/releases/download/v1.1.0/keysec-x86_64-apple-darwin.tar.gz"
+      sha256 "8375d130938fd1e13a98efb877521574be7586113af901c02825287bfe8f0ac1"
     end
   end
 
