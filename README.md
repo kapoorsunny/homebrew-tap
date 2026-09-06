@@ -7,7 +7,7 @@ A [Homebrew tap](https://docs.brew.sh/Taps) for utility formulas by
 
 ```bash
 brew tap kapoorsunny/tap
-brew trust kapoorsunny/tap   # one-time approval for this tap
+brew trust kapoorsunny/tap   # one-time approval; non-interactive, safe in scripts/CI
 ```
 
 ## Formulas
